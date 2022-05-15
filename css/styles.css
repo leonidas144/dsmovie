@@ -2,7 +2,7 @@
 
 :root {
    --bg-gray:#ddd;
-   --color-primary:#4D41C0;
+   --color-primary:#1900ff;
    --white:#fff;
    --text-gray: #4a4a4a;
    --text-light-gray:#aaaa;
@@ -227,7 +227,7 @@ a, a:hover{
 }
 
 .dsmovie-pagination-box button:disabled img{
-    filter: unset;
+    color: var(--text-gray);
 }
 
 .dsmovie-flip-horizontal{
